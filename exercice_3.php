@@ -18,19 +18,20 @@ and open the template in the editor.
             <p>Gérer tous les cas.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $age = 19;
                 $gender = 'Femme';
-                if($gender == 'Femme') {
+                if ($gender == 'Femme') {
                     $text = 'e';
                 }
-
                 if ($age >= 18 && ($gender == 'Homme' || $gender == 'Femme')) {
                     echo 'Vous êtes un' . $text . ' ' . strtolower($gender) . ' et vous êtes majeur' . $text;
                 } else {
                     echo 'Vous êtes un' . $text . ' ' . strtolower($gender) . ' et vous êtes mineur' . $text;
                 }
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

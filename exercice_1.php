@@ -16,14 +16,16 @@ and open the template in the editor.
             <p>Créer une variable age et l'initialiser avec une valeur.<br />Si l'âge est supérieur ou égale à 18, afficher Vous êtes majeur. Dans le cas contraire, afficher Vous êtes mineur.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $age = 29;
-                if($age >= 18) {
+                if ($age >= 18) {
                     echo 'Vous êtes majeur';
                 } else {
                     echo 'Vous êtes mineur';
                 }
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

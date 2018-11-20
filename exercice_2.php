@@ -16,26 +16,18 @@ and open the template in the editor.
             <p>Créer une variable isEasy de type booléan et l'initialiser avec une valeur.<br />Afficher C'est facile!! si c'est vrai. Dans le cas contraire afficher C'est difficile !!!.<br />Bonus : L'écrire de deux manières différentes.</p>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $isEasy = true;
                 if ($isEasy == true) {
                     echo 'C\'est facile';
                 } else {
                     echo 'C\'est dificile';
                 }
-                
-                echo '<br /></p><h2>Bonus :</h2><p>';
-                
-                switch ($isEasy) { 
-                    case true:
-                        echo 'C\'est facile';
-                    break;
-    
-                    case false:
-                        echo 'C\'est dificile';
-                    break;
-                }
-            ?></p>
+                ?>
+            </p>
+            <p><?= ($isEasy == true) ? 'C\'est facile' : 'C\'est difficile'; ?></p>
+            </p>
         </div>
     </body>
 </html>

@@ -17,14 +17,16 @@ and open the template in the editor.
             <blockquote>< ?php echo ($isOk) ? 'c'est ok !!' : 'c'est pas bon !!!'; ?></blockquote>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $isOk = true;
                 if ($isOk) {
                     echo 'C\'est ok !!';
                 } else {
                     echo 'C\'est pas bon !!!';
                 }
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

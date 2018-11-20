@@ -17,14 +17,16 @@ and open the template in the editor.
             <blockquote>< ?php echo ($age >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur'; ?></blockquote>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $age = '5';
                 if ($age >= '18') {
                     echo 'Tu es majeur';
                 } else {
                     echo 'Tu n\'es pas majeur';
                 }
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>

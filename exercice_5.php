@@ -17,14 +17,16 @@ and open the template in the editor.
             <blockquote>< ?php echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!'; ?></blockquote>
         </div>
         <div>
-            <p><?php
+            <p>
+                <?php
                 $gender = 'Homme';
                 if ($gender != 'Homme') {
                     echo 'C\'est une développeuse !!!';
                 } else {
                     echo 'C\'est un développeur !!!';
                 }
-            ?></p>
+                ?>
+            </p>
         </div>
     </body>
 </html>
