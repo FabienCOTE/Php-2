@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8" />
         <title>Exercice 7</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div>
